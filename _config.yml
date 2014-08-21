@@ -5,12 +5,12 @@ locale: en_US
 description: Building delightful online experiences around the world.
 logo: site-logo.png
 search: false
-url: http://thebakeryio.github.io/blog
+url: http://thebakery.io/blog
 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   :categories/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
