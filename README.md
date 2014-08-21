@@ -21,5 +21,19 @@ share: true
 comments: true
 ```
 
+Also don't forget to set the author value. Author info is in _data/authors.yml
+
+```
+author: dino|mark|philip
+```
+
+## Running locally
+
+When running locally through ```jekyll serve``` you'll need to update url setting in _config.yaml
+
+```
+url: http://localhost:4000
+```
+
 ---
 based on [So simple Theme](https://github.com/mmistakes/so-simple-theme) by [Michael Rose](https://github.com/mmistakes) 
