@@ -1,30 +1,39 @@
-# So Simple Theme
+# The Blog
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+## Setup 
+**Jekyll 2.x required**
 
-[![Build Status](https://travis-ci.org/mmistakes/so-simple-theme.svg?branch=master)](https://travis-ci.org/mmistakes/so-simple-theme)
+```
+gem install bundler
+bundle install
+```
 
-## So Simple Theme is all about:
+## New post
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+```
+octopress new post "Post Title"
+```
 
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+To enable sharing and comments for the new post edit the header in the .md file and add this
 
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+```
+share: true
+comments: true
+```
+
+Also don't forget to set the author value. Author info is in _data/authors.yml
+
+```
+author: dino|mark|philip
+```
+
+## Running locally
+
+When running locally through ```jekyll serve``` you'll need to update url setting in _config.yaml
+
+```
+url: http://localhost:4000
+```
 
 ---
-
-## Getting Started
-
-So Simple takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+based on [So simple Theme](https://github.com/mmistakes/so-simple-theme) by [Michael Rose](https://github.com/mmistakes) 
