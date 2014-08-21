@@ -137,6 +137,9 @@ body {
 	}
 }
 .site-title {
+	font-family: "raleway";
+	font-weight: 300;
+	text-transform: uppercase;
 	margin-bottom: 0;
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
@@ -150,9 +153,8 @@ body {
 }
 .site-description {
 	margin-top: 0;
-	font-family: $alt-font;
 	@include font-rem(16);
-	font-weight: 400;
+	font-weight: 300;
 	font-style: italic;
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
@@ -204,16 +206,14 @@ body {
 	margin-top: 2em;
 	text-transform: uppercase;
 	@include font-rem(16);
-	font-weight: 600;
+	font-weight: 400;
 	a { color: $text-color; }
 }
 span + .entry-title {
-	margin-top: 0;
+	margin-top: 10px;
 }
 .entry-title {
-	font-family: $alt-font;
-	font-style: italic;
-	@include font-rem(36);
+	@include font-rem(20);
 	font-weight: 400;
 	line-height: 1;
 	letter-spacing: -3px;
@@ -223,11 +223,11 @@ span + .entry-title {
 	}
 	@media #{$medium} {
 		max-width: 600px;
-		@include font-rem(52);
+		@include font-rem(32);
 	}
 	@media #{$large} {
 		max-width: 800px;
-		@include font-rem(68);
+		@include font-rem(46);
 	}
 }
 .entry-wrapper {
@@ -276,8 +276,10 @@ span + .entry-title {
 	display: none;
 	@media #{$large} {
 		display: block;
-		width: 150px;
-		height: 150px;
+		width: 130px;
+		height: 130px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 10px;
 		@include rounded(150px);
 		@include clearfix;
@@ -296,9 +298,8 @@ span + .entry-title {
 	}
 	p > a,
 	li > a {
-		border-bottom: 1px dotted lighten($link-color, 50);
 		&:hover {
-			border-bottom-style: solid;
+			border-bottom: 1px dotted darken($link-color, 20);
 		}
 	}
 }
