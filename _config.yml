@@ -35,7 +35,7 @@ owner:
   name: The Bakery
   avatar: bio-photo.jpg
   email: bakers@thebakery.io
-  disqus-shortname:
+  disqus-shortname: thebakeryio
   twitter: bakeryhq
   facebook: #username
   github: thebakeryio
