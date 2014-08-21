@@ -304,6 +304,14 @@ span + .entry-title {
 	}
 }
 .post-list {
+	a, a:visited {
+		color: #333;
+	}
+
+	a:hover {
+		color: #111;
+	}
+
 	li > a {
 		border-bottom-width: 0;
 	}
