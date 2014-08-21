@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: The Bakery
 locale: en_US
-description: Describe your website here.
+description: Building delightful online experiences around the world.
 logo: site-logo.png
-search: true
-url: http://thebakeryio.github.io/so-simple-theme
+search: false
+url: http://thebakeryio.github.io/blog
 
 
 # Jekyll configuration
@@ -32,13 +32,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: The Bakery
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: bakers@thebakery.io
   disqus-shortname:
-  twitter: #username
+  twitter: bakeryhq
   facebook: #username
-  github: #username
+  github: thebakeryio
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
