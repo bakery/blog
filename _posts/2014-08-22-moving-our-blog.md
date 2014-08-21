@@ -36,7 +36,7 @@ I've adjusted the list of authors for the blog, updated twitter handles and all 
 
 ## Bring your stuff with you       
 
-We had about 10 posts in our Tumblr which we wanted to bring a long. The makers of Jekyll clearly take that stuff seriously. You can import your doodles from pretty much anything spare stones and papyrus. More details [here](http://import.jekyllrb.com/). Running the following script did the trick   
+We had about 10 posts in our Tumblr which we wanted to bring a long. The makers of Jekyll clearly take that stuff seriously. You can import your scribbles from pretty much anything but stones and papyrus. More details [here](http://import.jekyllrb.com/). Running the following script did the trick   
 
 {% highlight ruby %}
 $ ruby -rubygems -e 'require "jekyll-import";
