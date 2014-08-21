@@ -1,0 +1,22 @@
+---
+layout: post
+title: Openmic, a week later
+date: '2013-09-18T10:42:00+02:00'
+categories: post/61589185008
+tags: []
+tumblr_url: http://blog.thebakery.io/post/61589185008/openmic-a-week-later
+---
+<p>One week after launching <a href="http://openmic.io">Openmic (openmic.io)</a>, it is time for a debrief and analysis.</p>
+<p><img alt="image" src="http://media.tumblr.com/bf11a6181c8b888f7599c5ac90a9cf33/tumblr_inline_mtbsstfSlL1rmwz2b.jpg"/></p>
+<p>First, the launch itself.</p>
+<p>We had 620 unique visitors totaling about 800 visits over the past week, most of them happening within the first 48 hours. Unsurprisingly, Facebook was our #1 traffic driver with about half of our traffic. <a href="http://news.ycombinator.com">Hacker News</a> brought it a fair number of visitors although less than we were hopping for. Third runner up is <a href="http://reddit.com">Reddit</a> which was a pleasant surprise given its is a community we are less familiar with.<br/><br/>Second, lessons learned.</p>
+<ul><li><strong>Hacker News launch</strong>: we posted the link to Openmic and shared it with Techpeaks participants during work hours. Newbie mistake. Many Techpeakers working from the same office as us upvoted the app from the same IP address resulting in a drop in ranking. We also neglected the timing of the post, launching a few hours before peak time. Here&#8217;s a good article about the topic: <a href="http://nathanael.hevenet.com/the-best-time-to-post-on-hacker-news-a-comprehensive-answer/">http://nathanael.hevenet.com/the-best-time-to-post-on-hacker-news-a-comprehensive-answer/</a><br/><br/></li>
+<li><strong>User Experience</strong>:  Our objective had been to keep the User Experience as simple and clean as possible. We thought the app was simple enough that users would understand it without instructions. This was reinforced by the fact that results had been pretty good when beta testing with Techpeakers. Mistake again. A few of our tech-savy friends sent us feedback saying they didn&#8217;t understand the app before seing it in action (viewing an Openmic built by somebody else). Furthermore, Analytics showed that about half of the visitors didn&#8217;t record any message about uploading a picture. It&#8217;s a common mistake to assume your visitors will understand. Unless you have time for extensive user testing, leave nothing to chance and include a mini-tutorial or a few sentences of explanation.</li>
+</ul><ul><li><strong>Browser support</strong>: We started building Openmic on the Chrome browser which is the only browser supporting the HTML5 AudioContext API which we need to grab the audio stream from the microphone. Wanting to maximize accessibility, we ended up adding support for Firefox and Safari using Flash to record audio. Not only did this take much more time than expected, it was also the biggest source of bugs. Retrospectively, limiting recording support to Chrome and setting other browsers to a read only mode would have been a better strategy.</li>
+</ul><p>Finally, today we shipped a number of new features and improvements based on our observations:</p>
+<ul><li>We added a mini-tutorial for first-time visitors.</li>
+<li><span>We simplified the microphone permission flow (asking for permission during picture upload).</span></li>
+<li><span>We created internal tooling allowing us to deploy to staging and production within seconds.</span></li>
+<li><span>We wired Mixpanel analytics to have even more insight in our users&#8217; behavior.</span></li>
+<li><span>We fixed some bugs and made minor performance improvements.</span></li>
+</ul><p>While preparing for the next version, we&#8217;d love to hear your feature requests and feedback so please get in touch at: hi@thebakery.io.<br/><br/>Onwards.</p>
