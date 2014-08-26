@@ -5,7 +5,7 @@ locale: en_US
 description: Building delightful online experiences around the world.
 logo: site-logo.png
 search: false
-url: http://localhost:4000
+url: http://thebakery.io/blog
 
 
 # Jekyll configuration
@@ -46,8 +46,8 @@ owner:
   tumblr: #username
   google:
     plus: #username
-    analytics: UA-41814664-1
-    verify: oAtCq2fJ3CKZYBQ_D9JTXYl2zHopjqEF5IPzRun3IXk
+    analytics:
+    verify:
     ad-client:
     ad-slot: 
   bing-verify:
