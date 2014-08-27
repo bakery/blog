@@ -19,7 +19,7 @@ This is a second installment of a series of posts on putting together an online 
 
 7 days ago, we started off with a twitter handle, a tweet and 6 followers (4 out of which were in the 'friends and family' category). As of today, the stats for the account look as follows:
 
-![Stats Day 7](/images/meteor-daily-day7-stats.png)
+![Stats Day 7]({{ site.url }}/images/meteor-daily-day7-stats.png)
 
 This looks nothing like crazy growth people over at growthhackers.tv talk about, I know. If you still have not lost interest in this post, here are the steps we took to get there.
 
@@ -58,7 +58,7 @@ Besides helping community spread the word and highlight interesting content, we 
 
 One of the beneficial side effects of this experiment is that it allows us to stay informed and super connected to the community we are excited about it. We sift through tons of content daily to surface the best stuff to our subscribers. I've been using [TweetDeck](https://about.twitter.com/products/tweetdeck) heavily to keep an eye on a bunch of streams at the same time.
 
-![Meteor Daily Tweetdeck](/images/meteordailytweetdeck.png)
+![Meteor Daily Tweetdeck]({{ site.url }}/images/meteordailytweetdeck.png)
 
 ###Next week
 
