@@ -32,7 +32,7 @@ It was a hard switch from a Windows user to a Mac user and having to work on bot
 
 * When I used to code on a Win machine, I used HOME and END keys a lot. Mac doesn’t have those keys and instead it has a combination of command+arrow left (for home) and arrow right (for end). I must say that this made sense but switching between Win and Mac every day made me want to break something. It took some time before my brain started working well with both standards.
 
-* Mac keyboard shortcuts are a bit weird to me even today, although I kind of like the standards like ‘command’+’,’ for app setting within most of the apps and command space to open Spotlight (or Alfred) for quick search and access to apps and files (windows made this also at some point using their Windows key. I will never understand the screenshot shortcuts on the Mac but its still better than having a separate key with just one function like it is on Windows machines :P
+* Mac keyboard shortcuts are a bit weird to me even today, although I kind of like the standards like ‘command’+’,’ for app setting within most of the apps and command space to open Spotlight (or Alfred) for quick search and access to apps and files (Windows made this also at some point using their Windows key). I will never understand the screenshot shortcuts on the Mac but it's still better than having a separate key with just one function like it is on Windows machines :P
 
 
 ###Figuring out the development environment
@@ -56,7 +56,7 @@ XCode didn’t have garbage collectors so you had to worry about reserving memor
 
 First batch of video tutorial I’ve watched was by <a href="https://www.youtube.com/user/thenewboston" target="_blank">thenewboston</a> on YouTube. It’s made by this pretty funny guy called Bucky. He has a very chill approach to teaching and some of his video tutorial are really funny. He has a bunch of different video tutorials so I recommend taking a look. Just watch the first 1 minute… it’s kind of funny: <a href="https://www.youtube.com/watch?v=CUcGZsJqwAo" target="_blank">Objective C Programming Tutorial - 32 - OMG, a Square Class?!</a>
 
-I decided to study ObjC for at least 4h a day and after a week of learning I had my first app submitted to the App Store :) The app is called RandAll and it’s a tool for generating random numbers, cards and dice. In 2 years of switching app price between free and $0.99 I actually covered my apple development licence costs. .
+I decided to study ObjC for at least 4h a day and after a week of learning I had my first app submitted to the App Store :) The app is called RandAll and it’s a tool for generating random numbers, cards and dice. In 2 years of switching app price between free and $0.99 I actually covered my apple development licence costs.
 
 Right after releasing the app I found out about Stanford’s open courses and there was a class “Developing iOS Apps for iPhone”. It’s absolutely the best place to start. They’ve been updating the course and following the latest versions of iOS. If you want to learn Objective C and building iOS apps, this is a great place to start: <a href="https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550" target="_blank">Stanford: Developing iOS 7 Apps for iPhone</a>.  
 
