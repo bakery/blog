@@ -13,7 +13,7 @@ categories:
 date: 2014-08-28T16:07:01+02:00
 ---
 
-*Today I'm publishing a new version of my first iPhone app <a href="https://itunes.apple.com/us/app/randall/id428395953" target="_blank">RandAll</a>, almost 3 years after the original version. Here's a bit of history about how I went from being a hard core Windows user to publishing an app in the App Store.*
+*Today I am publishing a new version of my first iOS app <a href="https://itunes.apple.com/us/app/randall/id428395953" target="_blank">RandAll</a>, almost 3 years after the original version. Here's a bit of history about how I went from being a hardcore Windows user to publishing an app in the App Store.*
 
 ---
 

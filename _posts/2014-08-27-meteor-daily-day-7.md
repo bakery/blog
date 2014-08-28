@@ -56,7 +56,7 @@ Besides helping community spread the word and highlight interesting content, we 
 
 ###Stay informed
 
-One of the beneficial side effects of this experiment is that it allows us to stay informed and super connected to the community we are excited about it. We sift through tons of content daily to surface the best stuff to our subscribers. I've been using [TweetDeck](https://about.twitter.com/products/tweetdeck) heavily to keep an eye on a bunch of streams at the same time.
+One of the beneficial side effects of this experiment is that it allows us to stay informed and super connected to the community we are excited about. We sift through tons of content daily to surface the best stuff to our subscribers. I've been using [TweetDeck](https://about.twitter.com/products/tweetdeck) heavily to keep an eye on a bunch of streams at the same time.
 
 ![Meteor Daily Tweetdeck]({{ site.url }}/images/meteordailytweetdeck.png)
 
