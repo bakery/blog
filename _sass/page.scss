@@ -462,3 +462,12 @@ span + .entry-title {
 		color: $black;
 	}
 }
+
+.caption {
+	text-align: center;
+
+	em {
+		margin-top: 5px;
+		font-size: 16px;
+	}
+}
