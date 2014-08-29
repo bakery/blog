@@ -4,9 +4,9 @@ body {
 	width: 100%;
 	background-color: $body-color;
 	border-top: 5px solid $black;
-	@media #{$medium} {
-		@include font-rem(20);
-	}
+	// @media #{$medium} {
+	// 	@include font-rem(18);
+	// }
 }
 
 // Top Navigation
@@ -216,7 +216,7 @@ span + .entry-title {
 	@include font-rem(20);
 	font-weight: 400;
 	line-height: 1;
-	letter-spacing: -3px;
+
 	a {
 		color: $black;
 		text-decoration: underline;
