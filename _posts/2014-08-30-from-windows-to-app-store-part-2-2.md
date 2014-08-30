@@ -17,6 +17,8 @@ date: 2014-08-30T18:05:01+02:00
 
 ---
 
+### Making money
+
 I started charging for RandAll just because I was curious if anyone would pay for it. I ended up selling arc4random_uniform(20)+11 copies of the app every month (between 10 and 30). It’s not a lot of money, but money was never my motivation. For me it was cool that I was able to start making money that early with this super simple and half baked product made in one week and with no prior experience at all.
 
 ### Who uses RandAll
