@@ -23,7 +23,7 @@ I started charging for RandAll just because I was curious if anyone would pay fo
 
 ### Who uses RandAll
 
-RandAll customers are mostly people playing games or sports in real life. Paying customers mostly used the “Reorder” feature. It enables them to shuffle the order of participants within a game/sport.
+RandAll customers are usually people playing games or sports in real life. Paying customers mostly used the “Reorder” feature. It enables them to shuffle the order of participants within a game/sport.
 
 The app was used more than 300k times with an average of 400 times a day, and that is all by this small group of people that actually bought the app.
 
