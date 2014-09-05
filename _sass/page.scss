@@ -465,9 +465,15 @@ span + .entry-title {
 
 .caption {
 	text-align: center;
+	margin: 30px auto;
 
 	em {
 		margin-top: 5px;
 		font-size: 16px;
+	}
+
+	img {
+		display: block;
+		margin: 10px auto 10px auto;
 	}
 }
