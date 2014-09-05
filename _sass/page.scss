@@ -19,7 +19,6 @@ body {
 		vertical-align: top;
 		margin: 0 0 50px;
 		padding: 4px 20px;
-		background-color: $black;
 		@include rounded(0 0 10px 10px);
 		@include clearfix;
 	}
@@ -30,18 +29,18 @@ body {
 		text-align: center;
 		@include font-rem(14);
 		text-transform: uppercase;
-		color: $white;
-		a:hover {
-			@include box-shadow($shadow: inset 0 0 1px $white);
-		}
+		color: $black;
+		// a:hover {
+		// 	@include box-shadow($shadow: inset 0 0 1px $white);
+		// }
 	}
 	a {
 		display: block;
 		padding: 6px 10px;
-		color: $white;
+		color: $black;
 		@include rounded(4px);
 		&:hover {
-			background-color: lighten($black, 10);
+			color: lighten($black, 10);
 		}
 	}
 }
