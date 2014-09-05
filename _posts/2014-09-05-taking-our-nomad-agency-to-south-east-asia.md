@@ -2,6 +2,8 @@
 layout: post
 title: "Taking our Nomad Agency to South East Asia"
 author: mark
+share: true
+comments: true
 modified:
 categories: 
 excerpt:
