@@ -289,6 +289,12 @@ span + .entry-title {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	line-height: 1.5;
+
+	p {
+		margin-bottom: 30px;
+	}
+
 	p:first-child {
 		margin-top: 0;
 	}
