@@ -17,7 +17,7 @@ date: 2014-09-15T23:44:22+02:00
 ---
 ![Meteor spotting Chrome extension]({{ site.url }}/images/meteor-spotting-chrome-extension.png)
 
-This post documents our experience building [Meteor Spotting](http://spotting.meteor.com), a Meteor based Chrome extension to crowd source finding projects running on Meteor.
+This post documents our experience building [Meteor Spotting](http://spotting.meteor.com), a Meteor based Chrome extension to crowd source finding projects that use Meteor. The extension detects sites running on Meteor and reports this data to the server which aggregates the data and presents it on the [Meteor Spotting Page](http://spotting.meteor.com). We keep track of spotters and let them compete with each other. 
 
 ### Chrome extensions 101
 
