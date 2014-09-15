@@ -27,7 +27,7 @@ Let's look at specific example from Meteor Spotting.
 
 ### Content scripts  
 
-Chrome lets you inject scripts and styles into web pages. You configure this in within the content_scripts section of the manifest file for your extension (manifest.json). Here's what it looks like for Meteor Spotting:
+Chrome lets you inject scripts and styles into web pages. You configure this in the content_scripts section of the manifest file for your extension (manifest.json). Here's what it looks like for Meteor Spotting:
 
 <script src="https://gist.github.com/callmephilip/4ee68a3968460dc16c53.js"></script>
 
@@ -35,7 +35,7 @@ Content scripts run in a special sandbox environment. What this means is that ja
 
 <script src="https://gist.github.com/callmephilip/7c132860e4193cee5ff0.js"></script>
  
-We grab all script tags from the head of the page and look for the ones containig inline scripts. The content of these inline scripts is then tranferred to the background page for further investigations - specifically looking for Meteor traces. 
+We grab all script tags from the head of the page and look for the ones containig inline scripts. The content of these inline scripts is then transferred to the background page for further investigations - specifically looking for Meteor traces. 
 
 ### Background page
 
@@ -45,7 +45,8 @@ Background page is the heart of your Chrome extension. Here's what it looks like
 
 It assembles all the scripts the extension needs. In our case background.js is where most of the magic happens. Let's take a look.
 
-Background script is responsible for a few things, namely:
+Background script is responsible for a few things:
+
 - receiving and processing 'reports' from the content script
 - contacting the application server to report a spotting
 - adjusting UI elements within Chrome to indicate wether a Meteor is detected using [PageAction API](https://developer.chrome.com/extensions/pageAction)
