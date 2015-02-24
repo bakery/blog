@@ -16,7 +16,7 @@ image:
   feature:
 date: 2015-02-24T16:24:48+08:00
 ---
-As a lot of you know, Meteorjs integrates with Cordova allowing you to build cross platform mobile apps using javascript, css and html. On top of that, Meteor allows you to share parts of your codebase between client and server so one can build both mobile UI and application backend required to power the app. Below is a quick recap of our experience prototyping mobile app codenamed 'Waldo' using Meteorjs.
+As a lot of you know, Meteorjs integrates with Cordova allowing you to build cross platform mobile apps using javascript, css and html. On top of that, Meteor allows you to share parts of your codebase between client and server so one can build both mobile UI and application backend required to power the app. Below is a quick recap of our experience prototyping a mobile app codenamed 'Waldo' using Meteorjs.
 
 ## Meet Waldo: quick intro
 
