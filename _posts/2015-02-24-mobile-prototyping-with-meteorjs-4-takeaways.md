@@ -16,13 +16,13 @@ image:
   feature:
 date: 2015-02-24T16:24:48+08:00
 ---
-# Mobile prototyping with Meteorjs - 4 takeaways
-
-As a lot of you know, Meteorjs integrates with Cordova allowing you to build cross platform mobile apps using javascript, css and html. On top of that, Meteor allows you to share parts of your codebase between client and server, one can build both mobile UI and application backend required to power the app, using one codebase. Below is a quick recap of our experience building a prototype mobile app codenamed 'Waldo' using Meteorjs.
+As a lot of you know, Meteorjs integrates with Cordova allowing you to build cross platform mobile apps using javascript, css and html. On top of that, Meteor allows you to share parts of your codebase between client and server so one can build both mobile UI and application backend required to power the app. Below is a quick recap of our experience prototyping mobile app codenamed 'Waldo' using Meteorjs.
 
 ## Meet Waldo: quick intro
 
-Waldo is a concept we've been playing with internally for some time until we decided to put it into a somewhat solid state with clickable items and pretty pictures. Waldo lets you post geotagged across different channels - it's like Twitter that is super focused on location. All the content is surfaced and organized by location, as opposed to who your friends are (Facebook) or who you follow (Twitter). Unlike Foursquare, Waldo does not focus exclusively on venues - you can add any bit of text, imagery, links to Waldo as long as they are linked to a certain location and can belong to a channel or multiple channels. Here's what the app looks like
+Waldo is a concept we had been playing with internally for some time until we decided to put it into a somewhat solid state people can interact with. 
+
+Waldo lets you post geotagged content across different channels. All the content is surfaced and organized by location, as opposed to who your friends are (Facebook) or who you follow (Twitter). Unlike Foursquare, Waldo does not focus exclusively on venues - you can add any bit of text, imagery, links to Waldo as long as they are linked to a certain location and can belong to a channel or multiple channels. Here's what the app looks like
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/95R6Dsvg-v8??rel=0&amp;vq=large&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 
@@ -35,7 +35,7 @@ Meteoric comes with a few demo apps ([Meteor Hunt](https://github.com/meteoric/m
 
 ## 2 - Routing and views 
 
-As most Meteorjs developers, we rely on IronRouter for both client side and server side routing. We've opted for using lightweight routes without subscriptions and process subscriptions on the view level as described [here](https://www.discovermeteor.com/blog/template-level-subscriptions/) combined with [this workaround](https://github.com/meteor/meteor/issues/2923#issuecomment-67577372). 
+As most Meteorjs developers, we rely on IronRouter for both client side and server side routing. We've opted for using lightweight routes and process subscriptions on the view level as described [here](https://www.discovermeteor.com/blog/template-level-subscriptions/) combined with [this workaround](https://github.com/meteor/meteor/issues/2923#issuecomment-67577372). 
 
 ```
 The good news is that view level subscrptions are coming to Meteor core. 
@@ -49,7 +49,7 @@ Current geolocation package from MDG offers a basic way of querying device's loc
 
 ## 4 - Input madness
 
-A very unexpected and bitter surprise came in the middle of the sprint with the update to [Ionic's Keyboard Cordova plugin](http://plugins.cordova.io/#/package/com.ionic.keyboard). The bug has been reported [here](https://github.com/driftyco/ionic/issues/2901). All of a sudden all our forms were severly messed up turning a functioning application into something else. Unable to locate the previous version of the keyboard plugin in question, we ended up rebuilding the forms to eliminate edge cases where input madness would occur. In retrospect, this actually improved the feel of the app making this whole situation a blessing in disguise. Key take away - keep things simple, always.
+A very unexpected and bitter surprise came in the middle of the sprint with the update to [Ionic's Keyboard Cordova plugin](http://plugins.cordova.io/#/package/com.ionic.keyboard). The bug has been reported [here](https://github.com/driftyco/ionic/issues/2901). All of a sudden all our forms were severly messed up turning a functioning application into something else. Unable to locate the previous version of the keyboard plugin in question, we ended up rebuilding the forms to eliminate edge cases where the problem was occurring. In retrospect, this actually improved the feel of the app making this whole situation a blessing in disguise. Key take away - keep things simple, always.
 
 ## Conclusion
 
