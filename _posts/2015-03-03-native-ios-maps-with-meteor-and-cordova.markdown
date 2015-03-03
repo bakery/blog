@@ -16,7 +16,7 @@ image:
   feature:
 date: 2015-03-03T19:38:12+08:00
 ---
-Last week we [talked](http://thebakery.io/blog/mobile-prototyping-with-meteorjs-4-takeaways/) about working with Meteor and Cordova for mobile prototyping while working on Waldo. This week we've been adding a more serious map support to the app. Below is a little video showing the map experience followed by a quick walkthrough how to get **native** maps in your Cordova Meteor apps. 
+Last week we [talked](http://thebakery.io/blog/mobile-prototyping-with-meteorjs-4-takeaways/) about using Meteor and Cordova for mobile prototyping while working on Waldo. This week we've been adding a more serious map support to the app. Below is a little video showing the map experience followed by a quick walkthrough how to get **native** maps in your Cordova Meteor apps. 
 
 **Note:** we have not tested the new map feature on Android devices but it should be working as the plugin does support Android 
 
