@@ -14,7 +14,7 @@ modify:
 categories:
 date: 2015-03-06T12:00:00+02:00
 ---
-*First of all, I’m not a UX or UI expert, but someone once told me to speak my mind if I see someone doing something wrong or illogical. So here it goes.*
+*First of all, I’m not a UX or UI expert, but I was once told me to speak my mind if I see someone doing something wrong or illogical. So here it goes.*
 
 ---
 
