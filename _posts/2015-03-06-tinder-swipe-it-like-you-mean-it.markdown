@@ -20,7 +20,7 @@ date: 2015-03-06T12:00:00+02:00
 
 Tinder. Everyone knows about it and even those in relationships have checked it out to see what all the fuss is about. I was a heavy user myself, and had my share of Tinder anecdotes, but I’ll save these for another occasion.
 
-I’ll try to describe why I think Tinder needs a redesign although it's already successful and famous for their use of swipe gestures. Not only that, they are often considered as a model of good app design. What if I told you they did it wrong and no one even noticed? Even worse, people actually copied their mistakes.
+I’ll try to describe why I think Tinder needs a redesign although it's already successful and famous for their use of swipe gestures. Not only that, they are often considered as a model of good app design. What if I told you they did it wrong and no one even noticed? Even worse, people actually copied their mistakes. Call me crazy, but I think there is a swipe conspiracy going on.
 
 ### What is Tinder?
 
