@@ -18,7 +18,7 @@ date: 2015-03-06T12:00:00+02:00
 
 ---
 
-Tinder. Everyone knows about it and even those in relationships have checked it out to see what all the fuss is about. I was a heavy user myself, and I have more than a few funny stories related to the usage of the app and how it worked for me in SE Asia compared to Europe, but those stories belong on my personal blog and not here.
+Tinder. Everyone knows about it and even those in relationships have checked it out to see what all the fuss is about. I was a heavy user myself, and had my share of Tinder anecdotes, but I’ll save these for another occasion.
 
 I’ll try to describe why I think Tinder needs a redesign although it's already successful and famous for their use of swipe gestures. Not only that, they are often considered as a model of good app design. What if I told you they did it wrong and no one even noticed? Even worse, people actually copied their mistakes.
 
@@ -28,11 +28,11 @@ I’ll give you a short intro to Tinder, just in case you've been living under a
 
 ![Tinder]({{ site.url }}/images/tinder.png)
 
-After launching Tinder and connecting with your Facebook account, Tinder shows you a card/profile of a woman/man in your proximity while also displaying some basic info (name, age, mutual friend count and mutual interests count) which helps if you are looking for something more than just… playing Jenga! ;)
+After launching Tinder and connecting with your Facebook account, Tinder shows you a card of a woman/man in your proximity while also displaying some basic info (name, age, mutual friend count and mutual interests count) which helps if you are looking for something more than just… playing Jenga! ;)
 
-- To see more pictures or more info about that person, tap the small “i” button or just tap anywhere on their card. After that, the app switches to the details screen seen in the image above.
-- If you are not interested, either tap the (x) button or swipe their card left.
-- If you like the person you are viewing, either tap the (heart) button or swipe their card right. (third image)
+- To see more pictures or more info about that person, tap the small “i” button or tap anywhere on the card. After that, the app switches to the details screen seen in the image above.
+- If you are not interested, either tap the (x) button or swipe the card left.
+- If you like the person you are viewing, either tap the (heart) button or swipe the card right. (third image)
 - If that person likes you back, you get a notification and you can start chatting.
 
 ### Swipe logic... or lack of it
@@ -41,7 +41,7 @@ I think the general idea is great and simple but I believe it can be done even b
 
 First, I would change the swipe directions. So many times have I swiped left wanting to jump to the next profile picture while foolishly thinking I was looking at the details screen. And just like that, forever changing the course of my life and the universe as we know it. Although they recently implemented “undo” feature for paid users, I still think it is a problem of bad design and now you have to pay to overcome it... brilliant! :)
 
-I look at the digital world as an extension to the physically world we live in, and I strongly believe pulling the profile card towards me is the natural gesture I want to make when I see someone I like, since I want to pull them closer. Therefore it is only logical that if you don’t like someone, you should push their card away from you or in other words, up.
+I look at the digital world as an extension to the physically world we live in, and I believe pulling the profile card towards me is the natural gesture I want to make when I see someone I like, since I want to pull them closer. Therefore it is only logical that if you don’t like someone, you should push their card away from you or in other words, up.
 
 I encountered the same issue while doing some client work building a more advanced Contacts Book app. One of the screens within the app displays cards from your contacts in a similar way Tinder does but utilizing all four directions as separate actions. Although I believe anyone repeatedly using an app will eventually learn which gesture is linked to which action, it is better to try and build these actions so they feel intuitive. Therefore I suggested the gesture of swiping up for discarding a contact's card since it feels like you are throwing it away, while pulling it down would feel like you are taking the card and storing it.
 
