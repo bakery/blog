@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tinder - Swipe it like you mean it"
+title: "Tinder - Swipe it Like You Mean It"
 author: dino
 share: true
 comments: true
@@ -49,7 +49,7 @@ Anyway, let’s get back to Tinder. Now that we’ve removed left and right gest
 
 ### Drop that screen. Less is more
 
-Since I don’t think Tinder needs the details screen that basically puts the app in a different mode where their reputable (but wrong) gestures just don’t work. Not only that, the UI elements that were on the bottom of the main screen move to the top right corner of the details screen. That transition right there is a UX nightmare. It only works because we got used to it. My idea was to utilize the same gesture (tapping the card itself) but instead of their transition just flip the card and extend it to fit that person's custom text and display a full list of mutual friends and interests. That way we can still swipe the card up or down if we like them or not. Swiping left or right while the card is flipped would flip it back and start displaying pictures from start or end depending on the direction of that swipe. Also, after we see all the images in normal mode, swiping further right could flip the card to display the details.
+Tinder doesn’t need the details screen that puts the app in a different mode making their reputable (but wrong) gestures not usable. Not only that, the UI elements that were on the bottom of the main screen move to the top right corner of the details screen. That transition right there is a UX nightmare. It only works because we got used to it. I would utilize the same gesture (tapping the card itself) to flip the card and extend it’s height to fit in the description and a full list of mutual friends and interests. That way we can still swipe the card up or down if we like them or not. Swiping left or right while the card is flipped would flip it back and start displaying pictures from start or end depending on the direction. Also, after we see all the images in normal mode, swiping further right could flip the card to display the details.
 
 Just because things work well and meet their purpose, doesn’t mean that they can’t work better while still doing the things they should. Don’t touch it! It works! Those are the famous last words of all big companies that were run over by their competitors.
 
