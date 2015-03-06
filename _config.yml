@@ -46,7 +46,7 @@ owner:
   tumblr: #username
   google:
     plus: #username
-    analytics: UA-41814664-3
+    analytics: 'UA-41814664-3'
     verify:
     ad-client:
     ad-slot: 
