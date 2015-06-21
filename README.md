@@ -1,4 +1,4 @@
-# The Blog
+# The blog
 
 ## Setup 
 **Jekyll 2.x required**
