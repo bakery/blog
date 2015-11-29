@@ -19,7 +19,7 @@ image:
 date: 2015-11-29T15:26:44+00:00
 ---
 
-The whole Meteor and SEO subject has been described by many as a world of pain with occasional spots of light in the horizon. A quick google search yields these types of responses:    
+The whole Meteor and SEO subject has been described by many as a world of pain with occasional rays of hope on the horizon. A quick google search yields these types of responses:    
 
 ![Meteor SEO on Quora]({{site.url}}/images/howbadismeteorwithseo.png)
 
@@ -27,7 +27,7 @@ Manuel Schoebel [dove into the issue](http://www.manuel-schoebel.com/blog/meteor
 
 I assume at this point you understand the nature of SEO problems in Meteor apps due to the dynammic nature of the applications. If you don't, you might want to start [here](https://www.quora.com/How-bad-is-MeteorJS-for-an-SEO). 
 
-We had to set up SEO jazz + support for Facebook's Open Graph tags (so you get nice previews of your pages on FB) and found the reality of Meteor SEO to be pretty straighforward and not so grim at all. Here's how (or [just right in](https://github.com/thebakeryio/meteor-seo-heroku)).
+We had to set up some SEO jazz + support for Facebook's Open Graph tags (so you get nice previews of your pages on FB) and found the reality of Meteor SEO to be pretty straighforward and not so grim at all. Here's how (you can also [just jump right in](https://github.com/thebakeryio/meteor-seo-heroku)).
 
 ## Setup
 
@@ -47,13 +47,13 @@ Note: if you use [Meteor up](https://github.com/kadirahq/meteor-up) for deployme
 
 ### Step 2: Spiderable
 
-To tell Meteor that you want it to respond to requests from Google and Facebook bots in an SEO  friendly way, you will need to add spiderable module to your application
+To tell Meteor that you want it to respond to requests from Google and Facebook bots in a friendly way, you will need to add spiderable module to your application
 
 <script src="https://gist.github.com/callmephilip/65b13f4ae6fe85f635e3.js"></script>
 
 ### Step 3: Meta tags
 
-To make sure your meta tags on your pages are set accordingly, you will need to update them accordingly. In our case (Iron Router + Blaze), we've done the following
+To make sure meta tags on your pages are set accordingly, update them like so (Iron Router + Blaze in our case):
 
 <script src="https://gist.github.com/callmephilip/dde598a163f6763d59cf.js"></script>
 
@@ -61,7 +61,9 @@ To make sure your meta tags on your pages are set accordingly, you will need to 
 
 ### Step 4: Deploy and check
 
-Once the app is deployed, you can confirm that it is being rendered correctly for the Google and Facebook bots by appending **_escaped_fragment_=** query parameter to your urls:   https://<my-meteor-app>.herokuapp.com/?_escaped_fragment_=. If everything went OK, you should see your page rendered properly with all the html and meta tags set properly. Facebook has a [handy tool](https://developers.facebook.com/tools/debug/og/object/) allowing you to check how your links look on their site.
+Once the app is deployed, you can confirm that it is being rendered correctly for the Google and Facebook bots by appending **_escaped_fragment_=** query parameter to your [url](https://meteor-heroku-seo.herokuapp.com/?_escaped_fragment_). 
+
+If everything went OK, you should see your page rendered properly with all the html and meta tags set properly. Facebook has a [handy tool](https://developers.facebook.com/tools/debug/og/object/) allowing you to check how your links look on their site.
 
 ## Resources
 - [Example App](https://github.com/thebakeryio/meteor-seo-heroku)
