@@ -21,7 +21,7 @@ date: 2015-11-29T15:26:44+00:00
 
 The whole Meteor and SEO subject has been described by many as a world of pain with occasional rays of hope on the horizon. A quick google search yields these types of responses:    
 
-![Meteor SEO on Quora]({{site.url}}/images/howbadismeteorwithseo.png)
+[![Meteor SEO on Quora]({{site.url}}/images/howbadismeteorwithseo.png)](https://www.quora.com/How-bad-is-MeteorJS-for-an-SEO)
 
 Manuel Schoebel [dove into the issue](http://www.manuel-schoebel.com/blog/meteor-and-seo) almost two years ago but we found that most of this stuff is a bit outdated.
 
