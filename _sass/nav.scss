@@ -54,12 +54,15 @@ header {
 .nav-bar {
   text-align: center;
   font-size: 0.875rem;
+  display: flex;
+  margin: 0;
 
   @media #{$large-up} {
     float: right;
   }
 
   li {
+    flex-grow: 1;
     margin-top: 24px;
     display: inline-block;
     text-transform: uppercase;

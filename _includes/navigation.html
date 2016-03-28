@@ -35,11 +35,15 @@
       </div>
 
       <div class="large-8 medium-12 columns collapse-small-only">
-        <ul class="nav-bar row collapse">
-          <li class="delay-200 small-3 columns"><a href="{{pathFor 'services'}}" class="{{isActiveRoute regex='services'}}">Services</a></li>
-          <li class="delay-400 small-3 columns"><a href="{{pathFor 'work'}}" class="{{isActiveRoute regex='work'}}">Work</a></li>
-          <li class="delay-600 small-3 columns"><a href="{{pathFor 'team'}}" class="{{isActiveRoute regex='team'}}">Team</a></li>
-          <li class="delay-800 small-3 columns"><a href="{{pathFor 'contact'}}" class="{{isActiveRoute regex='contact'}}">Contact</a></li>
+        <ul class="nav-bar collapse">
+          {% for link in site.data.navigation %}
+            {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.url %}
+            {% endif %}
+            <li class="delay-{{forloop.index | times:200}}"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}{% endif %} class="{% if link.title contains 'Blog' %}active{% endif %}">{{ link.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
     </div>

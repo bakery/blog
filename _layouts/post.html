@@ -31,7 +31,7 @@
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
       
-      <footer class="entry-meta">
+      <div class="entry-meta">
         {% if page.author %}
           {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
         {% endif %}
@@ -56,7 +56,7 @@
         </span>
         <!-- /.social-share -->
         {% endif %}
-      </footer>
+      </div>
       <div class="entry-content">
         {{ content }}
         <nav class="pagination" role="navigation">
