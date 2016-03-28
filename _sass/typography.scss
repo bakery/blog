@@ -41,11 +41,17 @@ html {
 
 body {
 	color: $text-color;
-	-webkit-font-smoothing: antialiased;
+	//-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 // Headings
 // --------------------------------------------------
+
+h1, h2, h3, h4 {
+    font-family: 'Brandon';
+}
+
 h1 {
   font-size: rem(26px);
 }

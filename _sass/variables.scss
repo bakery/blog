@@ -8,14 +8,6 @@ $alt-font: 'volkhov', serif;
 $doc-font-size: 18;
 $doc-line-height: 22;
 
-
-// set-up the body font-size / line-height
-body {
-	margin-top: 0px + $doc-line-height;
-	font-size: 0px + $doc-font-size;	
-}
-
-
 // COLORS =====================================================
 $body-color      		: #fff;
 $text-color      		: #222;
