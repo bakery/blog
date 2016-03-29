@@ -44,6 +44,12 @@
   }
 }
 
+.collapse-small-only {
+  @media #{$small-only} {
+    padding: 0;
+  }
+}
+
 
 // Global Transition
 // ---------------------------------------------------
