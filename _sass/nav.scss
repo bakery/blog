@@ -1,0 +1,115 @@
+header {
+  padding: 1em 0 1em 0;
+}
+
+.home-logo, .nav-bar {
+  margin-top: 1.5em;
+  
+  @media #{$large-up}{
+    margin-top: 1em;
+  }
+}
+
+.home-logo {
+  position: relative;
+  display: inline-block;
+  
+  .icon-baker-logo {
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    height: 26px;
+    width: 18px;
+  }
+
+  a {
+    padding-left: 30px;
+    color: $dark-gray;
+    font-weight: 400;
+  }
+
+  &:hover {
+    #baker-logo {
+      fill: black;
+    }
+    a {
+      color: black;
+    }
+  }
+
+  .letter {
+    display: inline-block;
+  }
+  
+  &:hover {
+    .letter {
+      @include animation-duration(2s);
+      @include animation-fill-mode(both);
+      @include animation-name(flashText);
+      @include animation-iteration-count(infinite);
+    }
+  }  
+}
+
+.nav-bar {
+  text-align: center;
+  font-size: 0.875rem;
+  display: flex;
+  margin: 0;
+
+  @media #{$large-up} {
+    float: right;
+  }
+
+  li {
+    flex-grow: 1;
+    margin-top: 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    @include animation-duration(0.6s);
+    @include animation-fill-mode(both);
+    @include animation-name(fadeInDown);
+
+    a {
+      color: $dark-gray;
+      color: $dark-gray;
+      transition: color 0.6s;
+
+      &:hover {
+        color: $black;
+      }
+  
+      &.active {
+        color: $black;
+        font-weight: 400;
+      }
+    }
+
+    font-size: 0.75rem;
+
+    @media #{$medium-up} {
+      font-size: 0.875rem;
+    }
+
+    @media #{$large-up} {
+      margin-top: 18px;
+      margin-left: 40px;
+      width: auto !important;
+    }
+  }
+}
+
+.header-border-container {
+  margin-top: 10px;
+}
+
+.header-border {
+  border-bottom: 1px solid $light-gray;
+  float: right;
+  clear: both;
+  @include animation-delay(1.2s);
+  @include animation-duration(0.8s);
+  @include animation-fill-mode(both);
+  @include animation-name(expandWidth);
+}

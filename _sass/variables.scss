@@ -8,14 +8,6 @@ $alt-font: 'volkhov', serif;
 $doc-font-size: 18;
 $doc-line-height: 22;
 
-
-// set-up the body font-size / line-height
-body {
-	margin-top: 0px + $doc-line-height;
-	font-size: 0px + $doc-font-size;	
-}
-
-
 // COLORS =====================================================
 $body-color      		: #fff;
 $text-color      		: #222;
@@ -34,3 +26,12 @@ $small            : "only screen and (min-width: 37.5em)";
 $medium           : "only screen and (min-width: 48em)";
 $large            : "only screen and (min-width: 62em)";
 $x-large          : "only screen and (min-width: 86.375em)";
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$light-gray: #e9e9e9;
+$dark-gray: #979797;
+$black: #222;
+$red: #ff695e;

@@ -1,16 +1,67 @@
+@font-face {
+  font-family: 'Futura-Light';
+  src: url('/assets/fonts/FuturaStd-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('/assets/fonts/Brandon_light.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('/assets/fonts/Brandon_reg.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('/assets/fonts/Brandon_med.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('/assets/fonts/Brandon_bld.otf') format('opentype');
+  font-weight: 700;
+}
+
+html, body, p {
+  font-family: 'Brandon';
+  font-weight: 200;
+}
+
 // Body
 // --------------------------------------------------
+
+html {
+  font-size: 16px;
+}
+
 body {
-	font-family: $base-font;
-	font-weight: 300;
 	color: $text-color;
-	-webkit-font-smoothing: antialiased;
+	//-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 // Headings
 // --------------------------------------------------
-h1, h2, h3, h4, h5, h6 {
-	font-family: $heading-font;
+
+h1, h2, h3, h4 {
+    font-family: 'Brandon';
+}
+
+h1 {
+  font-size: rem(26px);
+}
+
+h2 {
+  font-size: rem(20px);
+}
+
+h3 {
+  font-size: rem(18px);
 }
 
 // Links
