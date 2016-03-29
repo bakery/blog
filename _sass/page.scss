@@ -282,7 +282,7 @@ span + .entry-title {
 	}
 }
 .entry-meta {
-	max-width: 640px;
+	max-width: 600px;
 	width: 100%;
 	margin-right: auto;
 	margin-bottom: 30px;
@@ -342,7 +342,7 @@ span + .entry-title {
 		margin-top: 0;
 	}
 	@media #{$large} {
-		float: left;
+		float: right;
 	}
 	p > a,
 	li > a {
