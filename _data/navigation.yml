@@ -1,7 +1,16 @@
 # Site navigation links
 
-- title: About
-  url: http://thebakery.io
+- title: Services
+  url: http://thebakery.io/services
+
+- title: Work
+  url: http://thebakery.io/work
+
+- title: Team
+  url: http://thebakery.io/team
+
+- title: Contact
+  url: http://thebakery.io/contact
 
 - title: Blog
   url: /

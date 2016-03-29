@@ -37,6 +37,13 @@
 	}
 }
 
+.center-for-medium-only {
+  text-align: center;
+  @media #{$large-up} {
+    text-align: left;
+  }
+}
+
 
 // Global Transition
 // ---------------------------------------------------

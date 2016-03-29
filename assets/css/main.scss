@@ -2,14 +2,7 @@
 sitemap: false
 ---
 
-/*
- *
- *  So Simple
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
+@import 'vendor/foundation5-sass/foundation';
 
 // Partials
 @import "variables";
@@ -18,10 +11,14 @@ sitemap: false
 @import "reset";
 @import "site";
 @import "typography";
+@import "animate";
 @import "pygments";
 @import "coderay";
 @import "elements";
 @import "forms";
 @import "page";
+@import "nav";
+@import "footer";
+
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
