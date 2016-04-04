@@ -15,7 +15,7 @@ categories:
 excerpt:
 image:
   feature:
-date: 2016-03-30T15:06:03+01:00
+date: 2016-04-04T13:06:03+01:00
 ---
 Meteor Devtools (MD) is an extension for Chrome Developer Tools that makes the process of developing Meteor apps even more enjoyable. It also allows you to look under the hood of existing applications and learn how they are built. MD includes a plugin framework and currrently comes with 2 plugins: DDP Monitor and Blaze Inspector. You can [install](https://chrome.google.com/webstore/detail/meteor-devtools/ippapidnnboiophakmmhkdlchoccbgje) it from Chrome Web Store. The extension is open source and is available on [Github](https://github.com/thebakeryio/meteor-devtools) - please chip in with your feedback. Let's take a quick look around the extension. 
 
