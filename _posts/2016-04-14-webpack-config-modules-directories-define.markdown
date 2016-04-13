@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webpack Config: Modules Directories + Define"
+title: "Webpack Config: Modules Directories + DefinePlugin"
 author: philip
 share: true
 comments: true
