@@ -26,7 +26,7 @@ After playing with basic examples and figuring out how to hook new navigation co
 
 Let's start from the end and see what the app is gonna look like
 
-<img width="374" src="{{ site.url }}/images/app-setup.gif" alt="React Native appliccation with complex navigation">
+<img width="374" src="{{ site.url }}/images/app-setup.gif" alt="React Native application with complex navigation">
 
 Notice how we have a few different navigation tiers - there's a top-level card stack navigation that manages Tab views and a 'New Item' screen (top level gray screen with React logo). 
 
@@ -100,7 +100,7 @@ We can now use a NavigationCardStack component
 
 An attentive reader might be able to point out the problem we are about to run into. Since our navigation reducers coexist within the app store, each of them will be trying to respond to an incoming event. With 2 stack reducers in the system (global navigation and list-details reducer), we are going to end up with 'push', 'back' and 'BackAction' actions clashing.
 
-We could come up with special names for every new nav action but we will be loosing ability to reuse pre-made reducers. A solution I would like to suggest it so use nav keys to scope both actions and reducers as follows
+We could come up with special names for every new nav action but we will be losing ability to reuse pre-made reducers. A solution I would like to suggest it so use nav keys to scope both actions and reducers as follows
 
 <script src="https://gist.github.com/callmephilip/661842ccc4c5a8564a28539d38e3fd85.js"></script>
 
@@ -114,9 +114,9 @@ We can now adjust reducers and components to provide this scoping. You can find 
 
 New RN navigation approach is great for simplifying the way we reason about navigation and gets it closer to a Redux architecture which many of us are already using in React/RN apps. Setting up monolithic reducer for the app that combines multiple navigational modes has proven to be tedious and hard to maintain.
 
-The proposed solution is to split navigation reduction into a series of scoped nav reducers where each individual reducer is respoinsible for a part of app navigation system while coordinating with other reducers using navigational key as a scope identifier.
+The proposed solution is to split navigation reduction into a series of scoped nav reducers where each individual reducer is responsible for a part of app navigation system while coordinating with other reducers using navigational key as a scope identifier.
 
-This example is intentionally very verbose (e.g. scoping can be moved to a utility library and applied to both reducers and connector). The intetion was to make this scoping very explicit to the reader. Below is an example of scoping reducers using a helper function
+This example is intentionally very verbose (e.g. scoping can be moved to a utility library and applied to both reducers and connector). The intention was to make this scoping very explicit to the reader. Below is an example of scoping reducers using a helper function
 
 <script src="https://gist.github.com/callmephilip/8eca3f1903cdd45d397b4be5ed7c07d9.js"></script>
 
