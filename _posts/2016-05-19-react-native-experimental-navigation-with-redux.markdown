@@ -26,7 +26,7 @@ After playing with basic examples and figuring out how to hook new navigation co
 
 Let's start from the end and see what the app is gonna look like
 
-![React Native appliccation with complex navigation]({{ site.url }}/images/app-setup.gif)
+<img width="374" src="{{ site.url }}/images/app-setup.gif" alt="React Native appliccation with complex navigation">
 
 Notice how we have a few different navigation tiers - there's a top-level card stack navigation that manages Tab views and a 'New Item' screen (top level gray screen with React logo). 
 
