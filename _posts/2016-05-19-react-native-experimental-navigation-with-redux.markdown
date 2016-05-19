@@ -50,7 +50,7 @@ What if we could tackle navigation in isolation starting from the top level, add
 
 The first step would be to get top level card navigation to work
 
-![React Native card navigation]({{ site.url }}/top-level-nav.gif)
+![React Native card navigation]({{ site.url }}/images/top-level-nav.gif)
 
 Let's define a reducer for this using RN's [StackReducer](https://github.com/facebook/react-native/blob/master/Libraries/NavigationExperimental/Reducer/NavigationStackReducer.js)
 
@@ -62,7 +62,7 @@ We can now connect it to the navigation component using Redux connect
 
 ### Step 2: Tabs
 
-![React Native tab navigation]({{ site.url }}/tab-nav.gif)
+![React Native tab navigation]({{ site.url }}/images/tab-nav.gif)
 
 Our tab reducer is gonna be based on RN's [TabsReducer](https://github.com/facebook/react-native/blob/master/Libraries/NavigationExperimental/Reducer/NavigationTabsReducer.js)  
 
@@ -80,13 +80,13 @@ Notice how we now have 2 nav hierarchies in the app coexisting in peace. Corresp
 
 Here's what it looks like in the application store (don't worry about the feed part, we are gonna see it in a second)
 
-![React Native card navigation in a tab]({{ site.url }}/store.png)
+![React Native card navigation in a tab]({{ site.url }}/images/store.png)
 
 ### Step 3: List -> Details nav
 
 Remember how we are supposed to be able to navigate from list for details view in the feed tab? Let's implement this
 
-![React Native card navigation in a tab]({{ site.url }}/list-details-nav.gif)
+![React Native card navigation in a tab]({{ site.url }}/images/list-details-nav.gif)
 
 Let's start with defining a navigation reducer for the feed component. Once again, it is going to be a stack reducer:
 
