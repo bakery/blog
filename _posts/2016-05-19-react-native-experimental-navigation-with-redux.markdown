@@ -20,6 +20,12 @@ React Native is introducing a new way to manage navigation state in your applica
 
 You can grab the code for this example [here](https://github.com/thebakeryio/react-native-complex-nav)
 
+**May 28, 2016 Update**
+
+The example has been customized for Android as well
+
+<img src="{{ site.url }}/images/navigation-android.gif">
+
 ## Battle plan
 
 After playing with basic examples and figuring out how to hook new navigation components to a Redux store, I wanted to move on and try it with a scenario that seems to be closer to what a real app would need navigation wise.
