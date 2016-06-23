@@ -19,8 +19,8 @@ image:
   feature:
 date: 2016-06-08T16:43:19+01:00
 ---
-This post is a walkthrough of building a [TodoMVC](http://todomvc.com/) using React Native and Redux.<br>
-**June 23 Update** TodoMVC React Native example now includes a persistence layer using Parse Server and GraphQL - check out [the repository](https://github.com/thebakeryio/todomvc-react-native) for more information.<br>
+This post is a walkthrough of building a [TodoMVC](http://todomvc.com/) using React Native and Redux.<br><br>
+**June 23 Update**: TodoMVC React Native example now includes a persistence layer using Parse Server and GraphQL - check out [the repository](https://github.com/thebakeryio/todomvc-react-native) for more information.<br><br>
 
 <img alt="React Native TodoMVC" src="{{ site.url }}/images/todomvc.png">
 
