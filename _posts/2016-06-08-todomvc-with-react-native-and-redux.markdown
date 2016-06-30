@@ -150,6 +150,6 @@ I'll be doing a followup post on this TodoMVC example to add a pesistence layer 
 
 - [Source code for this example](https://github.com/thebakeryio/todomvc-react-native)
 - [Yeoman based RN generator by The Bakery](https://github.com/thebakeryio/generator-rn)
-- [Baker RN boilerplace by The Bakery](https://github.com/thebakeryio/baker)
+- [Baker RN boilerplate by The Bakery](https://github.com/thebakeryio/baker)
 - [Max Stoiber's React Boilerplate](https://github.com/mxstbr/react-boilerplate), inspiration for Baker
 - [Follow us on Twitter for more goodness](https://twitter.com/bakeryhq)

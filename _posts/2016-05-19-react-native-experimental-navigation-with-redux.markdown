@@ -20,6 +20,10 @@ React Native is introducing a new way to manage navigation state in your applica
 
 You can grab the code for this example [here](https://github.com/thebakeryio/react-native-complex-nav)
 
+**June 30, 2016 Update**
+
+We've refactored reducers and actions into a separate package that you can reuse in your own project - you can grab it on [Github](https://github.com/thebakeryio/react-native-navigation-redux-helpers)
+
 **June 24, 2016 Update**
 
 React Native 0.28.0 introduced a bunch of breaking changes to experimental navigation - please refer to the [repository](https://github.com/thebakeryio/react-native-complex-nav) for this example to get the latest version of this example  
