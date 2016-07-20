@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing a Secury Auditor to Meteor DevTools
+title: Introducing a Security Auditor to Meteor DevTools
 author: mark
 share: true
 comments: true
