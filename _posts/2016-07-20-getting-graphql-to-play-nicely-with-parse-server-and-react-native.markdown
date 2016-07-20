@@ -20,7 +20,7 @@ This is a long overdue writeup on our experience setting up GraphQL and Parse Se
 
 ## TL;DR
 
-We've released two packages making using authenticated GraphQL queries with Parse easier: [Parse GraphQL Client](https://github.com/thebakeryio/parse-graphql-client) and [Parse GraphQL Server](https://github.com/thebakeryio/parse-graphql-server). You can see both of them in action in [TodoMVC for React Native](https://github.com/thebakeryio/todomvc-react-native).
+We've released two packages to make using authenticated GraphQL queries with Parse easier: [Parse GraphQL Client](https://github.com/thebakeryio/parse-graphql-client) and [Parse GraphQL Server](https://github.com/thebakeryio/parse-graphql-server). You can see both of them in action in [TodoMVC for React Native](https://github.com/thebakeryio/todomvc-react-native).
 
 ## Setting it up
 
