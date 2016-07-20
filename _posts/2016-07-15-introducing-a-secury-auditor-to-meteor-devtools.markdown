@@ -12,7 +12,7 @@ tags:
 - chrome devtools
 - security
 image:
-  feature:
+  feature: {{ site.url }}/images/mdt_security_collections.png
 date: 2016-07-15T16:40:37+01:00
 ---
 
