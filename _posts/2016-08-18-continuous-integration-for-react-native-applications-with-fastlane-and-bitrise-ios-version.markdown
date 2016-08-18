@@ -182,7 +182,7 @@ Here's a quick breakdown of the workflow sequence above:
 - launch fastlane
 - push updated application artifacts back to Github (new build number) 
 
-**Note:** As of the time of this writing, Bitrise did not have built in support for skipping CI build based on commit message so I had to come up with a somewhat cludgy way of doing it. Thre reason we need skip functionality in the first place, is to prevent circular endless builds since we do push code back to GH. 
+**Note:** As of the time of this writing, Bitrise did not have built in support for skipping CI build based on commit message so I had to come up with a somewhat cludgy way of doing it. The reason we need skip functionality in the first place, is to prevent circular endless builds since we do push code back to GH. 
 
 Head to "Secret Env Vars" and add the following variables:
 
