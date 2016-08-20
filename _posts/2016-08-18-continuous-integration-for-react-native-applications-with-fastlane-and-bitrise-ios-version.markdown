@@ -140,7 +140,7 @@ You can now give fastlane a try locally by running ```fastlane beta```. If all g
 
 # Automating deployments with Bitrise
 
-I'd like to start with a quick note on Bitrise VS Circle VS Your favorite CI/CD system. I have not had a chance to try every single CI system out there (most of our open source projects use Travis). I found Bitrise to be very intuitive and focused on mobile with tons of useful premade building blocks. This being said, you should be able to repurpose this    
+I'd like to start with a quick note on Bitrise VS Circle VS Your favorite CI/CD system. I have not had a chance to try every single CI system out there (most of our open source projects use Travis). I found Bitrise to be very intuitive and focused on mobile with tons of useful premade building blocks.
 
 ## Before we begin
 
