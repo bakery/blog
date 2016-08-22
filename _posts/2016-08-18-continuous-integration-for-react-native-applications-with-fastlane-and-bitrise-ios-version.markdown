@@ -210,4 +210,5 @@ Setting up CI stuff is tedious. I hope this guide will help some of you hit fewe
 - [Managing Deploy keys](https://developer.github.com/guides/managing-deploy-keys/)       
 - [Bitrise Dev Center](http://devcenter.bitrise.io/docs)
 - [How to automate Android build process on Bitrise CI](https://medium.com/@hesam.kamalan/how-to-automate-android-build-process-on-bitrise-ci-71ae3a94362e#.k2wzxxa75) by [Hesam](https://medium.com/@hesam.kamalan)
+- [Deploying a React Native App with Fastlane - Part 1](https://dbanck.svbtle.com/deploying-a-react-native-app-with-fastlane) and [Part 1a](https://dbanck.svbtle.com/part-1a-autoincrement-build-numbers) by [Daniel Banck](https://twitter.com/dbanck)
 - [Continuous Integration in Snowflake boilerplate](https://github.com/bartonhammond/snowflake#continuous-integration)
