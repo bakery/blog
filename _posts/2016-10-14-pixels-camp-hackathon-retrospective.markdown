@@ -69,15 +69,27 @@ a.k.a. "Update OSX before updating Xcode"
 a.k.a. "Not something to do at 2am"*
 {: .caption}
 
+![Ready to hack]({{site.url}}/images/pixels-camp/5am.png)
+*Fighting with Testflight at 5am*
+{: .caption}
+
 We managed to resolve the situation on the next morning but we've learned that we probably should be more conservative in pushing builds to Testflight to avoid hitting this issue again.
 
 **Lesson 2: Android emulator is a pain**
 
 We chose to only focus on the iOS version during the hackathon in order not to get sucked into compatibility issue. This turned out to be a good decision as we spent several hours post-hackathon to get the Android emulator to play nice with the Map component. We finally got it to work by running the app straight on the phone but generally speaking, the platform switch is rarely without a few hickups.
 
-**Lesson 3: React Native is fun**
+**Lesson 3: React Native is pretty awesome**
 
 The React Native developement experience is incredibly productive and even more so with the Baker scaffolding components, reducers and models. We're definitely looking forward to our next RN project.
 
 We'll update this post with links to the App Store and Android Store builds in the next few days.
 
+
+## Bonus track: the Sumo Fight
+
+A short but notable interlude in our coding adventures was the Sumo fighting tournament. Philip ruthlessly defeated every opponent until the Grand Finale but unsucessfully attempted a sneaky dodge move at on the decisive round which lead to a 2nd place. 
+
+![Ready to hack]({{site.url}}/images/pixels-camp/fight.png)
+*About to kick some ass*
+{: .caption}
