@@ -26,7 +26,7 @@ While debating whether to focus on building something useful, fun or technically
 
 Although finding a table at the overpacked LX Factory venue wasn't an easy task, we managed to quickly get to work on Thursday and started hacking on Pixelinho. 
 
-![Ready to hack]({{site.url}}/images/pixels-camp/team.jpg)
+![Ready to hack]({{site.url}}/images/pixels-camp/team.JPG)
 *Philip and Jonathan ready to rumble*
 {: .caption}
 
