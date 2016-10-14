@@ -69,11 +69,11 @@ a.k.a. "Update OSX before updating Xcode"
 a.k.a. "Not something to do at 2am"*
 {: .caption}
 
+We managed to resolve the situation on the next morning but we've learned that we probably should be more conservative in pushing builds to Testflight to avoid hitting this issue again.
+
 ![Ready to hack]({{site.url}}/images/pixels-camp/5am.png)
 *Fighting with Testflight at 5am*
 {: .caption}
-
-We managed to resolve the situation on the next morning but we've learned that we probably should be more conservative in pushing builds to Testflight to avoid hitting this issue again.
 
 **Lesson 2: Android emulator is a pain**
 
