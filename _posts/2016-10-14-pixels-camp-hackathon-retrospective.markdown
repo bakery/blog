@@ -79,16 +79,17 @@ We managed to resolve the situation on the next morning but we've learned that w
 
 We chose to only focus on the iOS version during the hackathon in order not to get sucked into compatibility issue. This turned out to be a good decision as we spent several hours post-hackathon to get the Android emulator to play nice with the Map component. We finally got it to work by running the app straight on the phone but generally speaking, the platform switch is rarely without a few hickups.
 
-**Lesson 3: React Native is pretty awesome**
+## Round Up
 
-The React Native developement experience is incredibly productive and even more so with the Baker scaffolding components, reducers and models. We're definitely looking forward to our next RN project.
+The React Native developement experience is incredibly productive and even more so with [the Baker](http://baker.thebakery.io/) scaffolding components, reducers and models. We'll definitely keep exploring the technology and look for ways to make the Baker even more productive. 
 
 We'll update this post with links to the App Store and Android Store builds in the next few days.
 
+Big thanks to the Pixels Camp crew. The event was overall very well organized (on top of being completely free). We're already looking forward to our next Portuguese Hackathon.
 
 ## Bonus track: the Sumo Fight
 
-A short but notable interlude in our coding adventures was the Sumo fighting tournament. Philip ruthlessly defeated every opponent until the Grand Finale but unsucessfully attempted a sneaky dodge move at on the decisive round which lead to a 2nd place. 
+A short but notable interlude in our coding adventures was the Sumo fighting tournament. Philip ruthlessly defeated every opponent until the Grand Finale but unsucessfully attempted a sneaky dodge move on the decisive round which lead to a nonetheless honorable 2nd place.
 
 ![Ready to hack]({{site.url}}/images/pixels-camp/fight.png)
 *About to kick some ass*
