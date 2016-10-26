@@ -14,7 +14,7 @@ image:
 date: 2016-10-14T15:17:12+01:00
 ---
 
-Last week, our friend Jonathan Verrecchia ([@verekia](https://twitter.com/verekia)) flew from Paris to join us in the in the Pixels Camp Hackathon, a 48-hour coding competition part of the broader [Pixels Camp Conference](https://pixels.camp/) in Lisbon. This was the perfect occasion for us to test out some of the tools we've been working on and lock ourselves up in a dark room for a few days.
+Last week, our friend Jonathan Verrecchia ([@verekia](https://twitter.com/verekia)) flew from Paris to join us in the Pixels Camp Hackathon, a 48-hour coding competition part of the broader [Pixels Camp Conference](https://pixels.camp/) in Lisbon. This was the perfect occasion for us to test out some of the tools we've been working on and lock ourselves up in a dark room for a few days.
 
 ## The Idea
 
@@ -89,8 +89,8 @@ Big thanks to the Pixels Camp crew. The event was overall very well organized (o
 
 ## Bonus track: the Sumo Fight
 
-A short but notable interlude in our coding adventures was the Sumo fighting tournament. Philip ruthlessly defeated every opponent until the Grand Finale but unsucessfully attempted a sneaky dodge move on the decisive round which lead to a nonetheless honorable 2nd place.
+A short but notable interlude in our coding adventures was the Sumo fighting tournament. Philip ruthlessly defeated every opponent until the Grand Final but unsucessfully attempted a sneaky dodge move on the decisive round which lead to a nonetheless honorable 2nd place.
 
-![Ready to hack]({{site.url}}/images/pixels-camp/fight.png)
-*About to kick some ass*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZTP52uugTT4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+*The Grand Final*
 {: .caption}
