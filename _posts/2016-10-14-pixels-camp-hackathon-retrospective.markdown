@@ -2,6 +2,8 @@
 layout: post
 title: Pixels Camp Hackathon Retrospective
 author: mark
+share: true
+comments: true
 modified:
 categories:
 excerpt:
