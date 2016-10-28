@@ -12,7 +12,7 @@ tags:
  - hackathon
  - hacks
 image:
-  feature:
+ feature: pixels-camp/pixelinho.png
 date: 2016-10-14T15:17:12+01:00
 ---
 
