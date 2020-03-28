@@ -22,7 +22,7 @@ It all started late December of 2011. I had just won a great and long battle aga
 
 My salary at that time was around 750$ a month, which sounds low but is a pretty decent salary by Croatian standards. I invested 100$ to get the iOS developer licence and forced myself to actually build something and learn Objective C. I didn’t have any friends using Macs’ at that time, let alone making iOS apps. I knew I’d be venturing into this alone with no one but Internet to help me out when I’d encounter problems… and there were problems. I was terribly wrong when I thought learning Objective C would be the only hurdle in the way.
 
-###Getting used to working on a Mac
+### Getting used to working on a Mac
 
 It was a hard switch from a Windows user to a Mac user and having to work on both operating systems every day was hell. Here are some of the major keyboard issues I had at that time:
 
@@ -35,7 +35,7 @@ It was a hard switch from a Windows user to a Mac user and having to work on bot
 * Mac keyboard shortcuts are a bit weird to me even today, although I kind of like the standards like ‘command’+’,’ for app setting within most of the apps and command space to open Spotlight (or Alfred) for quick search and access to apps and files (Windows made this also at some point using their Windows key). I will never understand the screenshot shortcuts on the Mac but it's still better than having a separate key with just one function like it is on Windows machines :P
 
 
-###Figuring out the development environment
+### Figuring out the development environment
 
 So there I was, about to learn a programming language without even knowing what I needed and where to even start. I installed Xcode and started looking for video tutorials as I always absorb more from them than from reading books. I’m not sure if you remember those times, but it was back in the day when Xcode was one application and Interface Builder was a separate application.
 
@@ -52,7 +52,7 @@ XCode didn’t have garbage collectors so you had to worry about reserving memor
 *shit Xcode says when you forget to release memory*
 {: .caption}
 
-###Learning Objective C
+### Learning Objective C
 
 First batch of video tutorial I’ve watched was by <a href="https://www.youtube.com/user/thenewboston" target="_blank">thenewboston</a> on YouTube. It’s made by this pretty funny guy called Bucky. He has a very chill approach to teaching and some of his video tutorial are really funny. He has a bunch of different video tutorials so I recommend taking a look. Just watch the first 1 minute… it’s kind of funny: <a href="https://www.youtube.com/watch?v=CUcGZsJqwAo" target="_blank">Objective C Programming Tutorial - 32 - OMG, a Square Class?!</a>
 
